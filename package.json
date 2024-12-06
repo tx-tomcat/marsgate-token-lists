@@ -25,11 +25,6 @@
     "prepublishOnly": "pnpm test && pnpm build"
   },
   "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
